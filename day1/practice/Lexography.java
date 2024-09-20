@@ -14,7 +14,7 @@ Constraints
  */
 
  import java.util.*;
-import java.lang.*;
+
 class Lexography {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,6 +34,7 @@ class Lexography {
             System.out.print("Invalid input");
             return;
         }
+        
         if (n == 1 || isUnique(nums)) {
             System.out.println(-1);
             return;
